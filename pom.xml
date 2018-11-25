@@ -28,7 +28,17 @@
                     </formats>
                 </configuration>
             </plugin>
-        </plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <configLocation>
+                        ${sonar.url}/rules_configuration/export/java/My_Rules/checkstyle.xml
+                    </configLocation>
+                </configuration>
+            </plugin>
+        </plugins> 
     </build>
     <properties>
         <maven.compiler.source>1.6</maven.compiler.source>
