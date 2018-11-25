@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="5" name="com.mycompany.app.AppTest" time="0.125" errors="0" skipped="0">
+<testsuite tests="5" failures="5" name="com.mycompany.app.AppTest" time="0.19" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.1+13-LTS"/>
@@ -13,8 +13,8 @@
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="user.script" value=""/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\Nestor\Documents\NetBeansProjects\grilleMaven"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
@@ -27,7 +27,6 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="net.sourceforge.cobertura.datafile" value="C:\Users\Nestor\Documents\NetBeansProjects\grilleMaven\target\cobertura\cobertura.ser"/>
     <property name="classworlds.conf" value="C:\Users\Nestor\Documents\Personnel\M1EMIAGE2018\FORMATION\SEMESTRE2\C306_INGENIEURIE_DU_LOGICIEL\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jre1.8.0_181\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Nestor\Documents\Personnel\M1EMIAGE2018\FORMATION\SEMESTRE2\C306_INGENIEURIE_DU_LOGICIEL\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\Nestor\AppData\Local\Microsoft\WindowsApps;;."/>
@@ -47,7 +46,7 @@
     <property name="java.class.path" value="C:\Users\Nestor\Documents\Personnel\M1EMIAGE2018\FORMATION\SEMESTRE2\C306_INGENIEURIE_DU_LOGICIEL\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher cobertura:cobertura -Pmetrics"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install checkstyle:checkstyle"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.1"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -63,13 +62,12 @@
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="project.build.outputDirectory" value="C:\Users\Nestor\Documents\NetBeansProjects\grilleMaven\target\generated-classes\cobertura"/>
     <property name="java.vendor.version" value="18.9"/>
     <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.mycompany.app.AppTest" name="testGetValue" time="0.078">
+  <testcase classname="com.mycompany.app.AppTest" name="testGetValue" time="0.116">
     <failure message="Test non réussi." type="java.lang.AssertionError">java.lang.AssertionError: Test non réussi.
 	at org.junit.Assert.fail(Assert.java:88)
 	at com.mycompany.app.AppTest.testGetValue(AppTest.java:67)
@@ -146,7 +144,7 @@
     <system-out>getDimension
 </system-out>
   </testcase>
-  <testcase classname="com.mycompany.app.AppTest" name="testComplete" time="0">
+  <testcase classname="com.mycompany.app.AppTest" name="testComplete" time="0.038">
     <failure message="Test réussi." type="java.lang.AssertionError">java.lang.AssertionError: Test réussi.
 	at org.junit.Assert.fail(Assert.java:88)
 	at com.mycompany.app.AppTest.testComplete(AppTest.java:80)
@@ -183,7 +181,7 @@
     <system-out>Complete
 </system-out>
   </testcase>
-  <testcase classname="com.mycompany.app.AppTest" name="testPossible" time="0">
+  <testcase classname="com.mycompany.app.AppTest" name="testPossible" time="0.004">
     <failure message="Test réussi." type="java.lang.AssertionError">java.lang.AssertionError: Test réussi.
 	at org.junit.Assert.fail(Assert.java:88)
 	at com.mycompany.app.AppTest.testPossible(AppTest.java:96)
@@ -220,7 +218,7 @@
     <system-out>Possible
 </system-out>
   </testcase>
-  <testcase classname="com.mycompany.app.AppTest" name="testSetValue" time="0.016">
+  <testcase classname="com.mycompany.app.AppTest" name="testSetValue" time="0.001">
     <failure message="Test échoué." type="java.lang.AssertionError">java.lang.AssertionError: Test échoué.
 	at org.junit.Assert.fail(Assert.java:88)
 	at com.mycompany.app.AppTest.testSetValue(AppTest.java:50)

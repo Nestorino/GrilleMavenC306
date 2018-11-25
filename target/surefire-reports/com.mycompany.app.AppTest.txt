@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.app.AppTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.422 sec <<< FAILURE!
-testGetValue(com.mycompany.app.AppTest)  Time elapsed: 0.078 sec  <<< FAILURE!
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.612 sec <<< FAILURE!
+testGetValue(com.mycompany.app.AppTest)  Time elapsed: 0.116 sec  <<< FAILURE!
 java.lang.AssertionError: Test non réussi.
 	at org.junit.Assert.fail(Assert.java:88)
 	at com.mycompany.app.AppTest.testGetValue(AppTest.java:67)
@@ -73,7 +73,7 @@ java.lang.AssertionError: expected:<0> but was:<9>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testComplete(com.mycompany.app.AppTest)  Time elapsed: 0 sec  <<< FAILURE!
+testComplete(com.mycompany.app.AppTest)  Time elapsed: 0.038 sec  <<< FAILURE!
 java.lang.AssertionError: Test réussi.
 	at org.junit.Assert.fail(Assert.java:88)
 	at com.mycompany.app.AppTest.testComplete(AppTest.java:80)
@@ -107,7 +107,7 @@ java.lang.AssertionError: Test réussi.
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testPossible(com.mycompany.app.AppTest)  Time elapsed: 0 sec  <<< FAILURE!
+testPossible(com.mycompany.app.AppTest)  Time elapsed: 0.004 sec  <<< FAILURE!
 java.lang.AssertionError: Test réussi.
 	at org.junit.Assert.fail(Assert.java:88)
 	at com.mycompany.app.AppTest.testPossible(AppTest.java:96)
@@ -141,7 +141,7 @@ java.lang.AssertionError: Test réussi.
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testSetValue(com.mycompany.app.AppTest)  Time elapsed: 0.016 sec  <<< FAILURE!
+testSetValue(com.mycompany.app.AppTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: Test échoué.
 	at org.junit.Assert.fail(Assert.java:88)
 	at com.mycompany.app.AppTest.testSetValue(AppTest.java:50)
